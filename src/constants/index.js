@@ -35,9 +35,18 @@ export const navLinks = [
     title: 'Projects',
   },
   {
+    id: 'edu',
+    title: 'Education',
+  },
+  {
+    id: 'work',
+    title: 'Experience',
+  },
+  {
     id: 'contact',
     title: 'Contact',
   },
+  
   
 ];
 
@@ -136,9 +145,9 @@ const experiences = [
     date: 'Sep 2022 - Present',
   },
 ];
-const education = [
+const educations = [
   {
-    title: 'Front-End Developer',
+    title: 'cznjEnd Developer',
     company_name: 'Cover Hunt',
     icon: coverhunt,
     iconBg: '#333333',
@@ -282,4 +291,4 @@ const projects = [
   },
 ];
 
-export { services, technologies, experiences, projects, education };
+export { services, technologies, experiences, projects, educations };
