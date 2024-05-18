@@ -17,10 +17,8 @@ import {
   leaderboard,
   math,
   movie,
-  nyeusi,
-  space,
+  nyeusi, 
   coverhunt,
-  dcc,
   kelhel,
   microverse,
 } from '../assets';
@@ -46,7 +44,6 @@ export const navLinks = [
     id: 'contact',
     title: 'Contact',
   },
-  
   
 ];
 
@@ -117,63 +114,52 @@ const technologies = [
 
 const experiences = [
   {
-    title: 'Front-End Developer',
-    company_name: 'Cover Hunt',
+    title: 'Co-OP Front-End Developer',
+    company_name: 'Rewize Ai',
     icon: coverhunt,
     iconBg: '#333333',
-    date: 'Aug 2021 - Feb 2022',
+    date: 'Feb 2024 - May 2024',
   },
   {
-    title: 'Mentor (Volunteer)',
-    company_name: 'Microverse',
+    title: 'Junior Front-end Developer (Wordpress)',
+    company_name: 'Atlesec',
     icon: microverse,
     iconBg: '#333333',
-    date: 'Mar 2022 - May 2022',
+    date: 'Aug 2021 - Dec 2023',
   },
   {
-    title: 'Junior Software Engineer',
-    company_name: 'Kelhel',
+    title: 'Technology Assistant',
+    company_name: 'Etradif',
     icon: kelhel,
     iconBg: '#333333',
-    date: 'May 2022 - Oct 2022',
+    date: 'Nov 2019 - Feb 2020',
   },
-  {
-    title: 'Full Stack Developer',
-    company_name: 'Diversity Cyber Council',
-    icon: dcc,
-    iconBg: '#333333',
-    date: 'Sep 2022 - Present',
-  },
+  
+ 
 ];
 const educations = [
   {
-    title: 'cznjEnd Developer',
-    company_name: 'Cover Hunt',
+    title: 'Full-Stack Developer',
+    company_name: 'Ironhack Bootcamp Madrid',
     icon: coverhunt,
     iconBg: '#333333',
-    date: 'Aug 2021 - Feb 2022',
+    date: 'Oct 2023 - Feb 2024',
   },
   {
-    title: 'Mentor (Volunteer)',
-    company_name: 'Microverse',
+    title: 'Technician Specialized in IT Development',
+    company_name: 'MIAGE Casablanca Officielle',
     icon: microverse,
     iconBg: '#333333',
-    date: 'Mar 2022 - May 2022',
+    date: 'Sep 2017 - Jul 2019',
   },
   {
-    title: 'Junior Software Engineer',
-    company_name: 'Kelhel',
+    title: 'Master in tourisme',
+    company_name: 'Universidad de valencia',
     icon: kelhel,
     iconBg: '#333333',
-    date: 'May 2022 - Oct 2022',
+    date: 'Feb 2022 - Oct 2022',
   },
-  {
-    title: 'Full Stack Developer',
-    company_name: 'Diversity Cyber Council',
-    icon: dcc,
-    iconBg: '#333333',
-    date: 'Sep 2022 - Present',
-  },
+ 
 ];
 
 const projects = [

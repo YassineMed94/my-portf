@@ -2,7 +2,8 @@ import React, { useEffect, useState } from 'react';
 import { Link } from 'react-router-dom';
 import { styles } from '../styles';
 import { navLinks } from '../constants';
-import { close, menu, logo, logotext } from '../assets';
+import { close, menu, logo, logotext,git } from '../assets';
+
 
 const Navbar = () => {
   const [active, setActive] = useState('');
@@ -21,13 +22,12 @@ const Navbar = () => {
             window.scrollTo(0, 0);
           }}>
           <img
-            src={logo} // your logo comes here
+            src={logo} 
             alt="logo"
             className="sm:w-[50px] sm:h-[50px] w-[45px] h-[45px] object-contain"
           />
 
-          {/* if you have text you want besides your logo it comes here.
-          Otherwise delete this if you don't need it. */}
+          
           <img
             src={logotext}
             alt="logo"
@@ -44,10 +44,11 @@ const Navbar = () => {
                 uppercase tracking-[3px] cursor-pointer nav-links`}
               onClick={() => setActive(nav.title)}>
               <a href={`#${nav.id}`}>{nav.title}</a>
-            </li>
+            </li>     
           ))}
         </ul>
-
+        
+          
         {/* mobile */}
         <div className="sm:hidden flex flex-1 w-screen justify-end items-center">
           {toggle ? (
@@ -82,9 +83,11 @@ const Navbar = () => {
                     }}>
                     <a href={`#${nav.id}`}>{nav.title}</a>
                     
+                    
                   </li>
                 ))}
               </ul>
+              
             </div>
           ) : (
             <img

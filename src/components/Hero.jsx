@@ -60,7 +60,7 @@ const Hero = () => {
             />
               </span>
             </h1>
-            
+            <img src=''></img>
               
           </div>
           
@@ -68,12 +68,13 @@ const Hero = () => {
             className="w-screen flex flex-col items-start 
             justify-center sm:-ml-[3rem] xxs:mt-4"></div>
 
-          <div></div>
+          
         </div>
 
         <div
           className="absolute xs:bottom-10 bottom-32 w-full 
           flex justify-center items-center">
+            
           <a href="#about">
             <div
               className="w-[35px] h-[64px] rounded-3xl border-4 
@@ -90,11 +91,14 @@ const Hero = () => {
                 }}
                 className="w-3 h-3 rounded-full bg-taupe mb-1"
               />
+              
             </div>
+           
           </a>
+          
         </div>
 
-        {/* Your image comes here. Feel free to remove image if you don't plan to have one.*/}
+       
         <div>
           <img
             className="absolute bottom-0 ml-[50vw] 

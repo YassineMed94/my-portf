@@ -103,7 +103,7 @@ function Education() {
               ease-in-out"
               onClick={() =>
                 window.open(
-                  'resume link', //paste the link to your resume here
+                  'https://drive.google.com/uc?export=download&id=1azYcxCiZY8KzBpbp9BVodde9FQI_W5PD', 
                   '_blank'
                 )
               }
