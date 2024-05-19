@@ -165,8 +165,8 @@ const educations = [
 const projects = [
   {
     id: 'project-1',
-    name: 'KomiKult',
-    description: 'A comic characters list app that displays Marvel characters.',
+    name: 'ET_PH ',
+    description: 'A Fullstack Ecommerce website with full Crud functions.',
     tags: [
       {
         name: 'react',
@@ -182,14 +182,14 @@ const projects = [
       },
     ],
     image: komikult,
-    repo: 'https://github.com/shaqdeff/KomiKult',
-    demo: 'https://shaqdeff.github.io/KomiKult/',
+    repo: 'https://github.com/orgs/ecommerce-app-tech/repositories',
+    demo: 'https://ecommerce-tech-app.netlify.app/',
   },
   {
     id: 'project-2',
-    name: 'Leaderboard',
+    name: 'Recipe-Finder',
     description:
-      'A leaderboard list app that displays scores submitted by different players.',
+      'A React js recipe app with full crud.',
     tags: [
       {
         name: 'react',
@@ -205,13 +205,13 @@ const projects = [
       },
     ],
     image: leaderboard,
-    repo: 'https://github.com/shaqdeff/Leaderboard',
-    demo: 'https://shaqdeff.github.io/Leaderboard/',
+    repo: 'https://github.com/recipe-finder-react/recipe',
+    demo: 'https://project-recipe-finder.netlify.app/',
   },
   {
     id: 'project-3',
-    name: 'Math Magicians',
-    description: 'This is a single-page calculator app built with React',
+    name: 'Apple Ihone Website Clone',
+    description: 'iphone web Page clone with React js with animation ',
     tags: [
       {
         name: 'nextjs',
@@ -227,8 +227,8 @@ const projects = [
       },
     ],
     image: math,
-    repo: 'https://github.com/shaqdeff/Math-Magicians',
-    demo: 'https://inspiring-medovik-37d3b3.netlify.app/',
+    repo: 'https://github.com/YassineMed94/apple-iphone',
+    demo: 'https://appleiphone-clone.netlify.app',
   },
   {
     id: 'project-4',
