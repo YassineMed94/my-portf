@@ -103,7 +103,7 @@ function Education() {
               ease-in-out"
               onClick={() =>
                 window.open(
-                  'https://drive.google.com/uc?export=download&id=1azYcxCiZY8KzBpbp9BVodde9FQI_W5PD', 
+                  'https://drive.google.com/uc?export=download&id=17JdOvGSaH_by38Awrvu6wtsFu2B6XBFm', 
                   '_blank'
                 )
               }
